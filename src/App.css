@@ -1,0 +1,76 @@
+#left {
+  width : 70%;
+  margin : 1%;
+}
+body {
+  background-color: rgb(28, 28, 29);
+  color : white;
+}
+#select {
+  width : 200px;
+  background-color:rgb(54, 54, 56) ;
+  color : black;
+}
+#data {
+  background-color:rgb(54, 54, 56) ;
+  margin : 2%;
+  border-radius: 5%;;
+}
+#mid {
+  display : flex;
+}
+#data1 {
+  text-align: center;
+  position: relative;
+  right : 10px;
+}
+#link-data {
+  background: grey;
+  margin : 0 10px 0 10px;
+  height : 40px;
+}
+#link-data p {
+  position:relative;
+  top : 5px;
+}
+#link-data h6 {
+  position:relative;
+  bottom : 22px;
+}
+#right {
+  width : 26%;
+}
+#data2 {
+  margin : 2%;
+}
+#left1 {
+  width : 70%;
+  margin : 1%;
+  text-align: center;
+}
+#right1 {
+  width : 26%;
+  margin : 1%;
+  text-align: center;
+}
+#bottom {
+  display: flex;
+}
+#data3 {
+  margin : 2%;
+}
+@media (max-width : 900px){
+  #mid {
+    flex-direction: column;
+  } 
+  #data {
+    width : 300%;
+    margin-right : auto;
+  }
+  #data2 {
+    width : 300%;
+  }
+  #bottom {
+    flex-direction: column;
+  }
+}
